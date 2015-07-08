@@ -45,6 +45,7 @@ import org.opentripplanner.routing.vertextype.PatternDepartVertex;
 import org.opentripplanner.routing.vertextype.TransitStop;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.TimeZone;
 
@@ -129,6 +130,7 @@ public class OnBoardDepartServiceImplTest {
         TripTimes tripTimes = new TripTimes(trip, stopTimes, new Deduplicator());
         StopPattern stopPattern = new StopPattern(stopTimes);
         TripPattern tripPattern = new TripPattern(route, stopPattern);
+        TripPattern.generateUniqueIds(Arrays.asList(tripPattern));
 
         when(depart.getTripPattern()).thenReturn(tripPattern);
         when(dwell.getTripPattern()).thenReturn(tripPattern);
@@ -225,6 +227,7 @@ public class OnBoardDepartServiceImplTest {
         TripTimes tripTimes = new TripTimes(trip, stopTimes, new Deduplicator());
         StopPattern stopPattern = new StopPattern(stopTimes);
         TripPattern tripPattern = new TripPattern(route, stopPattern);
+        TripPattern.generateUniqueIds(Arrays.asList(tripPattern));
 
         when(depart.getTripPattern()).thenReturn(tripPattern);
 
@@ -304,6 +307,7 @@ public class OnBoardDepartServiceImplTest {
         TripTimes tripTimes = new TripTimes(trip, stopTimes, new Deduplicator());
         StopPattern stopPattern = new StopPattern(stopTimes);
         TripPattern tripPattern = new TripPattern(route, stopPattern);
+        TripPattern.generateUniqueIds(Arrays.asList(tripPattern));
 
         when(depart.getTripPattern()).thenReturn(tripPattern);
         when(dwell.getTripPattern()).thenReturn(tripPattern);
