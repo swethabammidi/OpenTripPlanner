@@ -10,9 +10,8 @@
   <url>http://opentripplanner.org/</url>
 
   <scm>
-    <connection>scm:git:http://github.com/openplans/OpenTripPlanner.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/openplans/OpenTripPlanner.git</developerConnection>
-    <url>http://github.com/openplans/OpenTripPlanner</url>
+    <connection>scm:git:https://github.com/swethabammidi/OpenTripPlanner</connection>
+    <url>https://github.com/swethabammidi/OpenTripPlanner</url>
   </scm>
 
   <modules>
