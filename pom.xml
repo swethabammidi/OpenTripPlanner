@@ -9,7 +9,7 @@
     <groupId>org.opentripplanner</groupId>
     <artifactId>otp</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <scm>
         <connection>scm:git:http://github.com/opentripplanner/OpenTripPlanner.git</connection>
