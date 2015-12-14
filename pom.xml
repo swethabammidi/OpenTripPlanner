@@ -1,43 +1,4 @@
 
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Gist
-
-    @swethabammidi
-
-121
-791
-
-    427
-
-opentripplanner/OpenTripPlanner
-Code
-Issues 624
-Pull requests 30
-Wiki
-Pulse
-Graphs
-OpenTripPlanner/pom.xml
-09a454c on 18 Sep 2014
-@abyrd abyrd update repository list to use conveyal repo instead of opengeo
-13 contributors
-@abyrd
-@nicholasbs
-@bdferris
-@novalis
-@kpwebb
-@bmander
-@fakeholz
-@jkoelewijn
-@flaktack
-@demory
-@JordenVerwer
-@skywave
-@vdeparday
-596 lines (571 sloc) 26.3 KB
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
